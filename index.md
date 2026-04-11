@@ -20,6 +20,6 @@ CPGE is an intensive two-year undergraduate program in mathematics and physics, 
 My role is to conduct such exams for 6 students each week. I prepare course questions and exercises specially tailored for the students I am examining. You can see some examples just below.
 
 ## Examination Examples
-- [Probability (Week 14)](week14_probability.pdf)
-- [Matrix Decomposition (Week 12)](week12_matrix_decomposition.pdf)
-- [Power Series (Week 6)](week06_power_series.pdf)
+- [Probability (Week 14)](/assets/week14_probability.pdf)
+- [Matrix Decomposition (Week 12)](/assets/week12_matrix_decomposition.pdf)
+- [Power Series (Week 6)](/assets/week06_power_series.pdf)
