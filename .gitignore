@@ -1,1 +1,9 @@
 .DS_Store
+_site/
+.ruby-version
+Gemfile
+Gemfile.lock
+.jekyll-cache/
+.bundle/
+.sass-cache/
+vendor/

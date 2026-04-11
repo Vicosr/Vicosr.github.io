@@ -3,6 +3,12 @@
 
 @import "minima";
 
+.wrapper.sidebar-layout {
+  display: flex !important;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
 .sidebar-layout {
   display: flex;
   gap: 30px;

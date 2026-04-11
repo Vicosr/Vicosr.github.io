@@ -23,3 +23,22 @@ My role is to conduct such exams for 6 students each week. I prepare course ques
 - [Probability (Week 14)](/assets/week14_probability.pdf)
 - [Matrix Decomposition (Week 12)](/assets/week12_matrix_decomposition.pdf)
 - [Power Series (Week 6)](/assets/week06_power_series.pdf)
+
+# Projects
+
+## Course project: Robot Fault Diagnosis through Transfer Learning and Digital Twins — CentraleSupélec LGI
+*Jan 2025 -- Jun 2025*
+
+Explored the feasibility of classifying real faults on a mechanical arm using a classifier trained on simulated data. Achieved 87% AUC using a DANN built on a 1D-CNN architecture.
+
+[GitHub Repository](https://github.com/anasamrouche/Fault-Diagnosis-Project)
+
+## Course project: Multi-view Sport Video Synchronisation — GoPro
+*Jan 2026 -- Present*
+
+Exploring methods for automatic multi-view sport video synchronisation, comparing three approaches: human pose detection, audio-based alignment using transformers, and visual similarity matching.
+
+## Course project: Variance Reduction for Monte Carlo Simulation in Financial Mathematics
+*Mar 2026*
+
+Explored low-discrepancy sequences as alternatives to standard Monte Carlo methods. Found that Sobol sequences were the most efficient in 46% of configurations; trained a random forest achieving 81% CV accuracy to predict the best method for a given configuration.
