@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper sidebar-layout">
+        <aside class="sidebar">
+          <h3>Victor Roussel</h3>
+          <nav>
+            <a href="mailto:victor.a.roussel@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/victor-a-roussel/">LinkedIn</a>
+            <a href="https://github.com/Vicosr">GitHub</a>
+          </nav>
+        </aside>
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>

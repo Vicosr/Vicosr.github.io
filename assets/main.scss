@@ -1,0 +1,42 @@
+---
+---
+
+@import "minima";
+
+.sidebar-layout {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  width: 180px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar-layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+}
