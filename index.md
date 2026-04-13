@@ -42,3 +42,5 @@ Exploring methods for automatic multi-view sport video synchronisation, comparin
 *Mar 2026*
 
 Explored low-discrepancy sequences as alternatives to standard Monte Carlo methods. Found that Sobol sequences were the most efficient in 46% of configurations; trained a random forest achieving 81% CV accuracy to predict the best method for a given configuration.
+
+[GitHub Repository](https://github.com/Vicosr/Variance-reduction-methods-for-Monte-Carlo-option-pricing)
