@@ -3,14 +3,17 @@ layout: default
 title: Home
 ---
 # About Me
-Hello, my name is Victor Roussel. I am a student at CentraleSupélec, Université Paris-Saclay.
-Because I really enjoy mathematics, I am currently pursuing a General Engineering curriculum with a major in mathematics.
-What I know for sure is that I want to work in the field of mathematics and/or computer science. That is why I am currently choosing courses and pursuing projects in related domains such as:
-- AI
+Hello, my name is Victor Roussel. I am a student in the General Engineering program at CentraleSupélec, Université Paris-Saclay, majoring in mathematics.
+
+My mathematical background — algebra, analysis, probability — is the common thread behind everything I work on. I choose my coursework and projects across domains such as:
+- AI / Machine Learning
 - Data Science
+- Signal Processing & Applied Mathematics
 - Finance
 - Cryptography
 - Computer Science
+
+Below, you will find some of the projects I have worked on, as well as the oral examinations (khôlles) I give to CPGE students preparing for France's engineering school entrance exams.
 
 # About The Khôlles
 You may have seen on my CV that I give oral examinations at Lycée Hoche (Versailles, France). Since this role is part of the French CPGE system, which is specific to France, I wanted to elaborate.
@@ -28,21 +31,15 @@ My role is to conduct such exams for 6 students each week. I prepare course ques
 
 ## Course project: Robot Fault Diagnosis through Transfer Learning and Digital Twins — CentraleSupélec LGI
 *Jan 2025 -- Jun 2025*
-
 Explored the feasibility of classifying real faults on a mechanical arm using a classifier trained on simulated data. Achieved 87% AUC using a DANN built on a 1D-CNN architecture.
-
 [GitHub Repository](https://github.com/anasamrouche/Fault-Diagnosis-Project)
 
 ## Course project: Multi-view Sport Video Synchronisation — GoPro
 *Jan 2026 -- Jun 2026*
-
-Exploring methods for automatic multi-view sport video synchronisation, comparing three approaches: human pose detection, audio-based alignment using transformers, and visual similarity matching.
-
-[Annalysis Report](/assets/Rapport_de_projet.pdf)
+Fine-tuned a Synchformer-based model for automatic multi-view audio-visual synchronisation on the Ego-Exo4D dataset, comparing human pose detection, audio-based alignment using transformers, and visual similarity matching. Achieved a mean absolute error of 0.081s on a high-confidence, discrete-activity subset of 89 takes.
+[Analysis Report](/assets/Rapport_de_projet.pdf)
 
 ## Course project: Variance Reduction for Monte Carlo Simulation in Financial Mathematics
 *Mar 2026*
-
 Explored low-discrepancy sequences as alternatives to standard Monte Carlo methods. Found that Sobol sequences were the most efficient in 46% of configurations; trained a random forest achieving 81% CV accuracy to predict the best method for a given configuration.
-
 [GitHub Repository](https://github.com/Vicosr/Variance-reduction-methods-for-Monte-Carlo-option-pricing)
