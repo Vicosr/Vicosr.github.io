@@ -34,9 +34,11 @@ Explored the feasibility of classifying real faults on a mechanical arm using a 
 [GitHub Repository](https://github.com/anasamrouche/Fault-Diagnosis-Project)
 
 ## Course project: Multi-view Sport Video Synchronisation — GoPro
-*Jan 2026 -- Present*
+*Jan 2026 -- Jun 2026*
 
 Exploring methods for automatic multi-view sport video synchronisation, comparing three approaches: human pose detection, audio-based alignment using transformers, and visual similarity matching.
+
+[Annalysis Report](/assets/Rapport_de_projet.pdf)
 
 ## Course project: Variance Reduction for Monte Carlo Simulation in Financial Mathematics
 *Mar 2026*
