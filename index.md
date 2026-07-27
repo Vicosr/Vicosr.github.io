@@ -24,7 +24,7 @@ My role is to conduct such exams for 6 students each week. I prepare course ques
 ## Course project: Liver Cancer Classification from Radiomic Features — Henri Mondor Hospital
 *Jul 2026*
 Distinguished two types of liver cancer (hepatocellular carcinoma vs. cholangiocarcinoma) from multi-phase MRI radiomic features, on an imbalanced cohort (87 vs. 23 patients). Compared three approaches — penalized multi-block regression (groupLASSO), random forests, and PCA — with explicit class-imbalance correction and stratified resampling across 100 random seeds. Best configuration reached 93% AUC and 88% accuracy.
-[Report](/assets/Rapport_Henri_Mondor.pdf) 
+[Report](/assets/Projet_El_Mondor_Radiologie.pdf) 
 
 ## Course project: Robot Fault Diagnosis through Transfer Learning and Digital Twins — CentraleSupélec LGI
 *Jan 2025 -- Jun 2025*
