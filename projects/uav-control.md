@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data-Driven Modelling and Control of a UAV (Safran Electronics & Defense)
+title: Data-Driven Modelling and Control of a UAV 
 permalink: /projects/uav-control/
 ---
 
@@ -41,3 +41,4 @@ Two defects are visible and worth naming. The drone drops briefly before converg
 Coupling a learned model to a controller exposes model error in a way that offline metrics do not. The RNN validated cleanly against held-out data, and the steady-state error only appeared once it sat inside the MPC loop. The prediction accuracy that matters is the one measured in closed loop.
 
 The week also made the case for keeping an interpretable baseline around. The first-order model was too coarse to control well, but having it made it obvious what the recurrent model was actually buying.
+[Rapport]({{ '/assets/Rapport_Controle_Drone.pdf' | relative_url }})
