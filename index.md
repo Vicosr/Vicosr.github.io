@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-<p class="availability"><span class="availability-label">Availability.</span> 5-6 month gap-year internship (stage de césure), starting September 2026.</p>
-
 # About Me
 
 Hello, my name is Victor Roussel. I am a student in the General Engineering program at CentraleSupélec, Université Paris-Saclay, majoring in mathematics.
 
 My mathematical background (algebra, analysis, probability) is the common thread behind everything I work on. I apply it mostly to machine learning, signal processing and quantitative finance, with detours through cryptography.
+
+<p class="availability"><span class="availability-label">Availability.</span> 5-6 month gap-year internship (stage de césure), starting September 2026.</p>
 
 ## Stack
 
@@ -31,7 +31,7 @@ The write-ups below go into different levels of detail. The fault diagnosis and 
 <a class="project-title" href="{{ '/projects/fault-diagnosis/' | relative_url }}">Robot Fault Diagnosis via Sim-to-Real Domain Adaptation</a>
 <p class="project-meta"><span class="project-tag">Lab project</span> · CentraleSupélec LGI · Jan 2025 – Jun 2025</p>
 
-Trained a fault classifier on simulated robot data and transferred it to real sensor data with a DANN, reaching 93.97% ± 2.54% accuracy over five runs against an 86% baseline, from 90 real samples in total.
+Trained a fault classifier on simulated robot data and transferred it to real sensor data with a DANN, reaching 87% accuracy on the real arm from 90 real samples in total.
 </div>
 
 <div class="project-entry" markdown="1">
