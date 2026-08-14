@@ -23,15 +23,15 @@ Alongside my studies, I give weekly oral examinations (khôlles) to CPGE student
 
 # Projects
 
-The write-ups below go into different levels of detail. The fault diagnosis and video synchronisation projects include the full method and evaluation; the other two are summarised in a paragraph.
+The write-ups below go into different levels of detail. The fault diagnosis, video synchronisation and UAV control projects include the full method and evaluation; the other two are summarised in a paragraph.
 
 <div class="project-list" markdown="1">
 
 <div class="project-entry" markdown="1">
-<a class="project-title" href="{{ '/projects/fault-diagnosis/' | relative_url }}">Robot Fault Diagnosis via Sim-to-Real Domain Adaptation</a>
-<p class="project-meta"><span class="project-tag">Lab project</span> · CentraleSupélec LGI · Jan 2025 – Jun 2025</p>
+<a class="project-title" href="{{ '/projects/henri-mondor/' | relative_url }}">Liver Cancer Classification from Radiomic Features (Henri Mondor Hospital)</a>
+<p class="project-meta"><span class="project-tag">Lab project</span> · Henri Mondor Hospital · Jul 2026</p>
 
-Trained a fault classifier on simulated robot data and transferred it to real sensor data with a DANN, reaching 87% accuracy on the real arm from 90 real samples in total.
+Identified which multi-phase MRI radiomic features separate two liver cancers on an imbalanced cohort, reaching 93% AUC with features that matched the oncologists' own reading.
 </div>
 
 <div class="project-entry" markdown="1">
@@ -42,17 +42,24 @@ Fine-tuned a Synchformer-based model on Ego-Exo4D on DGX A100 / Slurm infrastruc
 </div>
 
 <div class="project-entry" markdown="1">
-<a class="project-title" href="{{ '/projects/henri-mondor/' | relative_url }}">Liver Cancer Classification from Radiomic Features (Henri Mondor Hospital)</a>
-<p class="project-meta"><span class="project-tag">Lab project</span> · Henri Mondor Hospital · Jul 2026</p>
-
-Identified which multi-phase MRI radiomic features separate two liver cancers on an imbalanced cohort, reaching 93% AUC with features that matched the oncologists' own reading.
-</div>
-
-<div class="project-entry" markdown="1">
 <a class="project-title" href="{{ '/projects/monte-carlo/' | relative_url }}">Variance Reduction for Monte Carlo Simulation in Financial Mathematics</a>
 <p class="project-meta"><span class="project-tag">Course project</span> · Mar 2026</p>
 
 Benchmarked 8 variance reduction methods across 810 option pricing configurations, then trained a classifier to pick the best method for a given set of market parameters.
+</div>
+
+<div class="project-entry" markdown="1">
+<a class="project-title" href="{{ '/projects/uav-control/' | relative_url }}">Data-Driven Modelling and Control of a UAV (Safran Electronics &amp; Defense)</a>
+<p class="project-meta"><span class="project-tag">Industry challenge</span> · Safran Electronics &amp; Defense · Nov 2025</p>
+
+Identified a quadrotor's dynamics from input-output data alone, with no technical documentation available, then controlled it with an MPC built on the learned recurrent model and a Kalman filter for state estimation.
+</div>
+
+<div class="project-entry" markdown="1">
+<a class="project-title" href="{{ '/projects/fault-diagnosis/' | relative_url }}">Robot Fault Diagnosis via Sim-to-Real Domain Adaptation</a>
+<p class="project-meta"><span class="project-tag">Lab project</span> · CentraleSupélec LGI · Jan 2025 – Jun 2025</p>
+
+Trained a fault classifier on simulated robot data and transferred it to real sensor data with a DANN, reaching 87% accuracy on the real arm from 90 real samples in total.
 </div>
 
 </div>
