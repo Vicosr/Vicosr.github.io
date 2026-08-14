@@ -49,8 +49,8 @@ Benchmarked 8 variance reduction methods across 810 option pricing configuration
 </div>
 
 <div class="project-entry" markdown="1">
-<a class="project-title" href="{{ '/projects/uav-control/' | relative_url }}">Data-Driven Modelling and Control of a UAV (Safran Electronics &amp; Defense)</a>
-<p class="project-meta"><span class="project-tag">Industry challenge</span> · Safran Electronics &amp; Defense · Nov 2025</p>
+<a class="project-title" href="{{ '/projects/uav-control/' | relative_url }}">Data-Driven Modelling and Control of a UAV (</a>
+<p class="project-meta"><span class="project-tag">Industry challenge</span> Nov 2025</p>
 
 Identified a quadrotor's dynamics from input-output data alone, with no technical documentation available, then controlled it with an MPC built on the learned recurrent model and a Kalman filter for state estimation.
 </div>

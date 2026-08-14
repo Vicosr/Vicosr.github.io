@@ -6,10 +6,9 @@ permalink: /projects/uav-control/
 
 [← Back to home]({{ '/' | relative_url }})
 
-# Data-Driven Modelling and Control of a UAV (Safran Electronics & Defense)
-
+# Data-Driven Modelling and Control of a UAV 
 <span class="project-tag">Industry challenge</span>
-<p class="project-meta">Safran Electronics &amp; Defense · CentraleSupélec · Nov 2025 · one-week challenge</p>
+<p class="project-meta"> CentraleSupélec · Nov 2025 · one-week challenge</p>
 
 ## Problem
 
