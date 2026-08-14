@@ -3,46 +3,159 @@
 
 @import "minima";
 
-.wrapper.sidebar-layout {
-  display: flex !important;
-  flex-wrap: nowrap;
-  gap: 30px;
+// ---------------------------------------------------------------------------
+// Palette (aligned with CV / Beamer slides)
+// ---------------------------------------------------------------------------
+$navy: #16233f;
+$navy-soft: #3b4a6b;
+$gold: #ab8a3f;
+$hairline: #d9d4c7;
+
+body {
+  color: #2b2b2b;
 }
 
-.sidebar-layout {
-  display: flex;
-  gap: 30px;
+a {
+  color: $navy;
+
+  &:hover {
+    color: $gold;
+  }
 }
 
-.sidebar {
-  width: 180px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 20px;
-  height: fit-content;
+// ---------------------------------------------------------------------------
+// Headers: small caps, navy, thin gold rule underneath
+// ---------------------------------------------------------------------------
+h1, h2, h3 {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: $navy;
+  font-weight: 700;
 }
 
-.sidebar h3 {
-  margin-bottom: 10px;
+h1 {
+  border-bottom: 1px solid $gold;
+  padding-bottom: 8px;
 }
 
-.sidebar nav {
+h2 {
+  margin-top: 2.2em;
+  border-bottom: 1px solid $hairline;
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: $navy-soft;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $hairline;
+  margin: 2em 0;
+}
+
+// ---------------------------------------------------------------------------
+// Site header / footer: no color blocks, just a hairline + navy title
+// ---------------------------------------------------------------------------
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid $hairline;
+}
+
+.site-title {
+  color: $navy !important;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .page-link {
+  color: $navy;
+
+  &:hover {
+    color: $gold;
+    text-decoration: none;
+  }
+}
+
+.site-footer {
+  border-top: 1px solid $hairline;
+}
+
+// ---------------------------------------------------------------------------
+// Availability / tag callouts
+// ---------------------------------------------------------------------------
+.availability {
+  font-size: 1.05em;
+  color: $navy;
+  border: 1px solid $gold;
+  background: #faf6ea;
+  padding: 14px 18px;
+  margin: 1.6em 0 2em;
+}
+
+.availability .availability-label {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: $gold;
+  margin-right: 0.4em;
+}
+
+.project-tag {
+  display: inline-block;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: $gold;
+  font-size: 0.95em;
+}
+
+.project-meta {
+  color: #6b6b6b;
+  font-size: 0.95em;
+  margin-top: -0.4em;
+}
+
+// ---------------------------------------------------------------------------
+// Compact project list (home page): name is a link, not a heading
+// ---------------------------------------------------------------------------
+.project-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 1.4em;
+  margin-top: 1.2em;
 }
 
-.content {
-  flex: 1;
-  min-width: 0;
+.project-entry {
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid $hairline;
 }
 
-@media screen and (max-width: 600px) {
-  .sidebar-layout {
-    flex-direction: column;
+.project-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.project-entry .project-title {
+  display: block;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: $navy;
+
+  &:hover {
+    color: $gold;
   }
-  .sidebar {
-    width: 100%;
-    position: static;
-  }
+}
+
+.project-entry .project-meta {
+  margin: 0.3em 0 0.5em;
+}
+
+.project-entry p:last-child {
+  margin-bottom: 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  font-size: 0.95em;
 }
