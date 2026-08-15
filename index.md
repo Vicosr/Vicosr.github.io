@@ -29,7 +29,7 @@ The write-ups below go into different levels of detail. The fault diagnosis, vid
 
 <div class="project-entry" markdown="1">
 <a class="project-title" href="{{ '/projects/henri-mondor/' | relative_url }}">Liver Cancer Classification from Radiomic Features (Henri Mondor Hospital)</a>
-<p class="project-meta"><span class="project-tag">Lab project</span> · Henri Mondor Hospital · Jul 2026</p>
+<p class="project-meta"><span class="project-tag">Academic project</span> · Henri Mondor Hospital · Jul 2026</p>
 
 Identified which multi-phase MRI radiomic features separate two liver cancers on an imbalanced cohort, reaching 93% AUC with features that matched the oncologists' own reading.
 </div>

@@ -8,7 +8,7 @@ permalink: /projects/henri-mondor/
 
 # Liver Cancer Classification from Radiomic Features (Henri Mondor Hospital)
 
-<span class="project-tag">Lab project</span>
+<span class="project-tag">Academic project</span>
 <p class="project-meta">Henri Mondor Hospital · CentraleSupélec · Jul 2026</p>
 
 Hepatocellular carcinoma and cholangiocarcinoma call for different treatments but present similarly, and reading the radiomic features extracted from multi-phase contrast MRI is slow work. The task was to find which of those features actually separate the two, on a cohort of 87 against 23 patients with many correlated variables and missing phases.
